@@ -43,7 +43,7 @@ a{
     margin-bottom: 6%;
     line-height: 25px;
   }
-  #firstContainer > h3{
+  #firstContainer > h3 ,  #findRecipes h3 , #OnePotRecipes h3{
     font-family: cursive;
     font-size: 30px;
     text-align: center;
@@ -58,8 +58,29 @@ a{
   .divTrendingImg{
       margin-bottom: 5%;
   }
- 
- 
+/**************findRecipes**********************/
+
+ #findRecipes a > img{
+    padding-right: 2%;
+    height: 164px;
+    width: 164px;
+    border-radius: 50%;
+ }
+ #findRecipes #divInput > input{
+    width: 90%;
+    border: none;
+    font-size: 120%;
+    color: black;
+    padding-bottom: 3%;
+    padding-left: 2%;
+}
+#findRecipes #divInput >img{
+    width: 4%;
+    margin-top: 13px;}
+#divInput{
+    border: 1px solid gray;
+    margin-bottom: 10%;
+ }
 /**************Header**********************/
 #divMain h1{
     text-align: center;
