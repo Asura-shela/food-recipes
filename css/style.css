@@ -1,3 +1,41 @@
 #divMain{
     margin: 0% 14%;
 }
+#firstContainer{
+    width: 75%;
+}
+#mainImgFirst .divTrendingImg{
+    float: left;
+}
+
+.divTrendingImg img{
+    height: 210px;
+    width: 150px;
+    margin-right: 18px;
+ }
+ #firstContainer> h2{
+    font-family: cursive;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .mainParh a{
+    text-decoration: none;
+    color: rgb(129, 33, 33);
+  }
+  .mainParh{
+    color: rgb(78, 77, 77);
+    font-size: 18px;
+    margin-top: 4%;
+    line-height: 25px;
+  }
+  #firstContainer > h3{
+    font-family: cursive;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 7%;
+    margin-bottom: 3%;
+  }
+ 
+ 
