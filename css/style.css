@@ -73,13 +73,16 @@ margin-left: 8%;
 #divsearch{
     margin-left: 0;
     border: 1PX solid gray;
+    width: 20%;
+    margin-top: 0%;
 }
 
 #divHeaderOptions{
+    height: 100%;
     display: flex;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    padding: 20px 0px;
+    padding: 1% 0%;
 }
 #divsearch img{
     padding-right: 6px;
@@ -87,11 +90,13 @@ margin-left: 8%;
 width: 20px;
 }
 #divsearch input{
-    height: 50PX;
-    width: 200PX;
+    /* height: 50PX; */
+    /* width: 200PX; */
+    width: 85%;
     border: none;
     font-size: 120%;
     color: black;
+    padding: 5%;
 }
 
 
