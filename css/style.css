@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@1,200&display=swap');
+a{
+    text-decoration: none;
+}
 #divMain{
     margin: 0% 14%;
 }
@@ -15,21 +19,26 @@
     margin-right: 18px;
  }
  .imgDescription{
-     width: 100px;
- }
+     width: 130px;
+     text-align: center;
+     font-family: 'Muli', sans-serif;
+     }
  #firstContainer> h2{
     font-family: cursive;
     font-size: 40px;
     text-align: center;
     font-weight: bolder;
+    margin-top: 4%;
   }
   .mainParh a{
     text-decoration: none;
-    color: rgb(129, 33, 33);
+    color: rgb(252, 17, 17);
+    font-family: 'Muli', sans-serif;
+
   }
   .mainParh{
     color: rgb(78, 77, 77);
-    font-size: 18px;
+    font-size: 22px;
     margin-top: 4%;
     margin-bottom: 6%;
     line-height: 25px;
@@ -41,6 +50,13 @@
     font-weight: bold;
     margin-top: 7%;
     margin-bottom: 3%;
+  }
+  #mainImgFirst .divTrendingImg a{
+    color: rgb(252, 17, 17);
+    font-weight: bold;
+  }
+  .divTrendingImg{
+      margin-bottom: 5%;
   }
  
  
