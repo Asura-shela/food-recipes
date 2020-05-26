@@ -9,7 +9,7 @@ a{
 #firstContainer{
     width: 70%;
 }
-#mainImgFirst .divTrendingImg{
+#mainImgFirst .divTrendingImg, #mainImgSecond .OnePotRecipes, #mainImgThired .recent{
     float: left;
 }
 
@@ -19,10 +19,12 @@ a{
     margin-right: 18px;
  }
  .imgDescription{
-     width: 130px;
-     text-align: center;
-     font-family: 'Muli', sans-serif;
-     }
+    width: 105px;
+    color: rgb(252, 17, 17);
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+}
  #firstContainer> h2{
     font-family: cursive;
     font-size: 40px;
@@ -60,7 +62,7 @@ a{
   }
 /**************findRecipes**********************/
 
- #findRecipes a > img{
+ #findRecipes a .findRecipes{
     padding-right: 2%;
     height: 164px;
     width: 164px;
@@ -74,13 +76,64 @@ a{
     padding-bottom: 3%;
     padding-left: 2%;
 }
-#findRecipes #divInput >img{
+#findRecipes #divInput .findRecipes{
     width: 4%;
     margin-top: 13px;}
 #divInput{
     border: 1px solid gray;
     margin-bottom: 10%;
  }
+ /**************OnePotRecipes**********************/
+#OnePotRecipes .OnePotRecipes a >img{
+    height: 164px;
+    width: 104px;
+    padding-right: 18px;;
+}
+#OnePotRecipes  a{
+    color: rgb(252, 17, 17);
+    font-weight: bold;
+}
+#SeeMore >p{
+    float: right;
+}
+#divHalloween >p{
+    clear: both;
+}
+
+/**************SKYLAR**********************/
+#SKYLAR{
+    background-color: #f2f2f2;
+    height: 20%;
+}
+#SKYLAR #SKYLARimg{
+    height: 25%;
+    width: 25%;
+    border-radius: 50%;
+    margin-left: 26px;
+    margin-top: 60px;
+}
+ /* #aboutSKYLAR{
+    position: relative;
+    top: -292px;
+    left: -106px;
+    float: right;
+}
+#ParhboutSKYLAR{
+    width: 62%;
+    position: relative;
+    right: -259px;
+    top: -326px;
+} */
+    
+    /**************recent**********************/
+#mainImgThired .recent a > img{
+    height: 164px;
+    width: 104px;
+    padding-right: 18px;;
+}
+#modernHomepage{
+    clear: both;
+}
 /**************Header**********************/
 #divMain h1{
     text-align: center;
@@ -194,3 +247,14 @@ border-top: 1px solid gray;
     margin-top: 10%;
 }
 /*************************************************/
+footer{
+    background-image: linear-gradient(white, #cdcde5);
+}
+footer >p{
+    color: rgb(78, 77, 77);
+    font-size: 22px;
+    margin-top: 4%;
+    padding: 28px;
+    text-align: center;
+    line-height: 25px;
+}
